@@ -14,11 +14,11 @@ pipeline{
                 dir('jerkins-demo2') {
                        	bat 'mvn clean compile'
                        	bat 'mvn test'
-}
+                }
 			
-			}
+	        }
 
-		}
+		
 		
 	
 		stage('Report'){
@@ -44,3 +44,4 @@ pipeline{
 		}
 		
 	}
+}
