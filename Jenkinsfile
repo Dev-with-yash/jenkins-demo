@@ -7,20 +7,22 @@ pipeline
  		steps{
 			echo 'Hello world'
 		}
-		}
-           }
+	     }
+           
            stage('code'){
  		steps{
 			echo 'Hello code'
 		}
-		}
-           }
+          }
+           
           stage('chai'){
  		steps{
 			echo 'chai aur code'
 		}
-		}
-           }
+	  }
+	
+	}
+           
 
 
 	}
