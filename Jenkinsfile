@@ -3,15 +3,15 @@ pipeline
    agent any
        
         stages{
-            stage('Hello'){
+            stage('prod-1'){
  		steps{
-			echo 'Hello world'
+			echo 'production1'
 		}
 	     }
            
-           stage('code'){
+           stage('production'){
  		steps{
-			echo 'Hello code'
+			echo 'production code'
 		}
           }
            
